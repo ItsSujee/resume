@@ -1,7 +1,7 @@
 
 \ProvidesClass{resume}[Resume class]
 
-\LoadClass[12pt, letterpaper]{article} % Font size and paper type
+\LoadClass[11pt, letterpaper]{article} % Font size and paper type
 \usepackage[english]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{hyperref}
@@ -110,6 +110,6 @@
 % The below commands define the whitespace after certain things in the document - they can be \smallskip, \medskip or \bigskip
 \def\namesize{\Large} % Size of the name at the top of the document
 \def\addressskip{\smallskip} % The space between the two address (or phone/email) lines
-\def\sectionlineskip{\medskip % The space above the horizontal line for each section 
+\def\sectionlineskip{\medskip} % The space above the horizontal line for each section 
 \def\nameskip{\smallskip} % The space after your name at the top
 \def\sectionskip{\smallskip} % The space after the heading section

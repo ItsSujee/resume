@@ -1,9 +1,9 @@
 % This template requires the resume.cls file to be in the same directory as the
 % .tex file. The resume.cls file provides the resume style used for structuring
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------
 
 \documentclass{resume} % Use the custom resume.cls style
 \usepackage[left=0.5in,top=0.5in,right=0.5in,bottom=0.5in]{geometry} % Document margins
@@ -11,61 +11,50 @@
 \address{  
 \href{mailto:sujeethan.vigneswaran@gmail.com}{sujeethan.vigneswaran@gmail.com}  
 \\ 
-\href{http://www.sujeethanvigneswaran.com}{www.sujeethanvigneswaran.com} }
+\href{http://www.sujeethanvigneswaran.com}{Website} 
+\\
+\href{https://www.linkedin.com/in/sujeethan-vigneswaran/}{LinkedIn}
+\\
+\href{https://github.com/itssujee}{GitHub}
+}
+
 \begin{document}
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------
 
 \begin{rSection}{Work Experience}
 
-\begin{rSubsection}{Systems Engineer (Site Reliability Engineering)}{May 2022 - September 2022}{Replicant AI}{San Francisco, California}
-\item Designed an operational cost savings strategy plan focused on cloud resource usage and Kubernetes scaling with production traffic resulting in an ongoing savings of \$300,000 per year.
-\item Enabled the adoption of a FinOps culture for software developers, NLP scientists, and ML engineers by creating cloud cost monitoring dashboards to create accountability for their respective costs.
-\item Repaired a bug for OpsGenie paging on-call engineers overnight for incidental issues.
+\begin{rSubsection}{Cloud Systems Engineer}{May 2022 - December 2022}{Replicant}{San Francisco, CA}
+\item Developed and implemented an innovative auto-scaling strategy to reduce cloud costs by \$300K annually, while simultaneously improving the customer experience through improved availability and performance.
+\item Implemented a cost optimization program through developing cloud cost monitoring dashboards, resulting in a 20\% reduction in overall cloud costs for software developers, NLP scientists, and ML engineers.
+\item Developed and executed a comprehensive testing plan to identify and prevent false-positive alerts, resulting in a 95\% reduction in erroneous on-call page notifications.
 \end{rSubsection}
 
-\begin{rSubsection}{Product Manager}{September 2021 - December 2021}{Loblaw Digital}{Toronto, Ontario}
-\item Owned the product delivery of the 2022 PC Optimum Points Days Event that was experienced by 18 million users and generated \$1.3 billion in revenue that week. (Most revenue in the last 5 years).
-\item Utilized the lean methodology to launch the product through three phases of MVP iterations. 
-\item Designed an A/B Test and learned the significance of time-urgency on user experience and buying habits.
-\item Authored a GTM product strategy document and ensured all stakeholder requirements were managed.
-\item Created 90 detailed user stories that involved Back-end, Front-end, API, Analytics, and QA development.
+\begin{rSubsection}{Site Reliability Engineer}{January 2021 - December 2021}{Loblaw Digital \& Loblaw Companies Limited}{Toronto, ON}
+\item Designed Kubernetes namespace monitoring dashboards that provided actionable insights leading to a 15\% decrease in unnecessary resource usage, resulting in an annual savings of \$200K.
+\item Developed and implemented a cloud-based licensing automation system that cut licensing fees by \$120K annually, resulting in a 20\% cost reduction for the company.
+\item Developed Terraform modules to enable developers to host web applications on Google Cloud, reducing deployment time by 90\% and increasing resource utilization efficiency by 20\%.
 \end{rSubsection}
 
-%------------------------------------------------
-
-\begin{rSubsection}{Product Manager}{January 2021 - April 2021}{Loblaw Digital}{Remote}
-\item Redesigned the PC Optimum Insiders subscription process to increase registration rates by 75\%.
-\item Delivered MVP by breaking down technical requirements into 60 detailed user stories.
-\item Analyzed user experience testing results to prioritize the feature development road map.
-% \item Coordinated product management rituals: sprint retrospectives, sprint planning, and backlog grooming.
+\begin{rSubsection}{Product Manager}{January 2020 - December 2020}{Loblaw Digital}{Toronto, ON}
+\item Developed and executed a comprehensive go-to-market strategy for the 2022 PC Optimum Points Days Event, resulting in a week-long revenue of \$1.3B and an increase of 25\% in user engagement.
+\item Created detailed user stories for Front-end, Back-end, Analytics, and QA development for the event which was experienced by over 18 million users. Decreased development time by 10\% through efficient collaboration with cross-functional teams.
+\item Designed an A/B test to evaluate the impact of time-urgency on user experience and buying habits during the event. Improved conversion rates by 30\%, enhancing overall customer satisfaction.
 \end{rSubsection}
 
-%------------------------------------------------
-
-\begin{rSubsection}{Site Reliability Engineer I }{May 2020 - August 2020}{Loblaw Digital}{Remote}
-\item Designed cloud based system to automate platform licensing to save \$120,000 per year in licensing fees.
-\item Managed public cloud resources using infrastructure as code methodology using Terraform.
-\item Created dashboards to monitor Kubernetes cluster usage that provides cost reducing insights.
+\begin{rSubsection}{Big Data Software Engineer}{September 2019 - December 2019}{DRVN Intelligence}{Toronto, ON}
+\item Developed an innovative system architecture for a digital media advertising platform, resulting in a 80\% reduction in deployment time and enabled customer acquisition.
+\item Designed and implemented ETL pipelines in Apache Airflow \& Beam for multiple big data projects, resulting in faster data processing times by up to 40\%, improved data quality by 25\%, and reduced costs by \$500K annually.
+\item Enabled the successful acquisition of Google Cloud Engineer Partner status by passing both Google Cloud Professional Data Engineer and Google Cloud Professional Cloud Architect certifications, resulting in a 95\% increase in business opportunities.
 \end{rSubsection}
-
-%------------------------------------------------
-
-\begin{rSubsection}{Big Data Developer}{September 2019 - December 2019}{DRVN Intelligence}{Toronto, Ontario}
-\item Enabled the organization to become a Google Cloud Engineer Partner by passing the Google Cloud Professional Data Engineer and Google Cloud Professional Cloud Architect certifications.
-\item Created product road-map for a digital media advertising platform for sale on the Google Cloud Marketplace.
-% \item Developed a POC for data engineering pipelines for a healthcare analytics request for proposal.
-\end{rSubsection}
-
-%------------------------------------------------
 
 \end{rSection}
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------
 %	LEADERSHIP SECTION
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------
 
 % \begin{rSection}{Leadership Experience}
 
@@ -77,26 +66,29 @@
 
 % \end{rSection}
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------
 %	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------
 \begin{rSection}{Education}
 
-{\bf University of Waterloo, Faculty of Engineering} \hfill {} \\
-Bachelor of Applied Science in Environmental Engineering Option in Management Engineering \\
-Relevant Courses: Software Development, Statistics, Economics, Human Computer Interaction
+{\bf University of Waterloo, Faculty of Engineering} \hfill {Waterloo, ON} \\
+BASc in Environmental Engineering \& Minor in Management Engineering \\
+Relevant Courses: Digital Computation, Statistics, Operations Management, Introduction to Complex Systems
+\\
+Capstone Project: Genetic Algorithm Optimization of EV-Charging Infrastructure Locations along Highway 401. 
 
 \end{rSection}
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------
 %	SKILLS SECTION
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------
 
 \begin{rSection}{Skills}
 
 \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-Product & Experimentation, GTM Strategy, Data Analytics \& Insights, User Interviews \\
-Technology & Kubernetes, Docker, Terraform, Python, SQL, MATLAB, Go, Figma, JIRA \\
+% Product & Experimentation, GTM Strategy, Data Analytics \& Insights, User Interviews \\
+Certificates & Google Cloud Professional Data Engineer \& Professional Cloud Architect\\
+Technology & Docker, Kubernetes, Terraform, Linux, Python, SQL, Go, PagerDuty, JIRA 
 
 \end{tabular}
 
